@@ -9,7 +9,8 @@ public class Student {
 
     private String name;
     private String studentID;
-
+    private String program;
+    
    /*
     A constructor that takes in both parameters
     @param givenName - the student names
@@ -20,9 +21,7 @@ public class Student {
         name = givenName;
         studentID = givenID;
     }
-    /**
-     * @return the name
-     */
+
     public String getName() {
         return name;
     }
@@ -50,10 +49,14 @@ public class Student {
 /*
 * a mehtod that returns true if a student studied a false otherwise.
     @return wheter or not the student studied
-    
 */
-    public boolean didStudy (){
-        return true;
+
+    public String getProgram() {
+        return program;
     }
-            
+
+    public void setProgram(String program) {
+        this.program = program;
+    }
 }
+    
