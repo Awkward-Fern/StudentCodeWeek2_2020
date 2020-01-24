@@ -7,6 +7,7 @@ package student;
  */
 public class Student {
 
+    // adding this comment as a change on Github to test pull
     private String name;
     private String studentID;
     private String program;
